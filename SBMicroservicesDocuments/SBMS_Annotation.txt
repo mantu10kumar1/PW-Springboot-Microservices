@@ -32,3 +32,27 @@ public interface TeluskoFeignClient {
 	@GetMapping("/course-info")
 	public ResponseEntity<String> getCourseInfo();
 }
+-------------------------------------------------------------------------------------------
+Day2
+
+Spring Boot Starter Web: RESTful APIs banane ke liye.
+
+Spring Boot Starter Actuator: App monitoring aur health check ke liye.
+
+Micrometer Tracing Bridge Brave: Traces generate karne ke liye (Spring Boot 3 standard).
+
+Zipkin Reporter Brave: Traces ko aapke Zipkin server tak bhejne ke liye.
+
+Spring Cloud Starter Netflix Eureka Client: Service discovery registration ke liye.
+
+Spring Cloud Starter OpenFeign: Inter-service communication ke liye.
+
+Spring Cloud Starter Config: (Config Client) External configuration fetch karne ke liye.
+
+Spring Cloud Config Server: (Config Server) Centralized configuration manage karne ke liye.
+
+Spring Boot Admin Starter Client: Monitoring dashboard se connect karne ke liye.
+
+Spring Boot DevTools: Fast development aur auto-restart ke liye.
+
+Spring Boot Starter Test & Micrometer Tracing Test: Testing framework ke liye.
